@@ -12,6 +12,9 @@ bug-reports: "https://github.com/mtelvers/sqlite3-backup/issues"
 depends: [
   "ocaml"
   "dune" {>= "3.5"}
+  "sqlite3"
+  "fmt"
+  "cmdliner" {>= "1.1.0"}
   "odoc" {with-doc}
 ]
 build: [

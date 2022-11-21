@@ -19,7 +19,12 @@
  (name sqlite3-backup)
  (synopsis "Backup a SQLite3 database")
  (description "Backup a SQLite3 database")
- (depends ocaml dune)
+ (depends
+  ocaml
+  dune
+  sqlite3
+  fmt
+  (cmdliner (>= 1.1.0)))
  (tags
   (topics "to describe" your project)))
 
