@@ -1,11 +1,11 @@
 (lang dune 3.5)
 
-(name sqlite-backup)
+(name sqlite3-backup)
 
 (generate_opam_files true)
 
 (source
- (github mtelvers/sqlite-backup))
+ (github mtelvers/sqlite3-backup))
 
 (authors "Mark Elvers")
 
@@ -16,9 +16,9 @@
 (documentation https://url/to/documentation)
 
 (package
- (name sqlite-backup)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (name sqlite3-backup)
+ (synopsis "Backup a SQLite3 database")
+ (description "Backup a SQLite3 database")
  (depends ocaml dune)
  (tags
   (topics "to describe" your project)))
