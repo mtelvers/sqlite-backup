@@ -1,0 +1,4 @@
+(executable
+ (public_name sqlite_backup)
+ (name main)
+ (libraries sqlite3 fmt unix))
